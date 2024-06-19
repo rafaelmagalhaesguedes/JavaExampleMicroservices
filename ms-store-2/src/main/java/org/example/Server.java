@@ -7,20 +7,20 @@ import java.util.concurrent.Executors;
 
 public class Server {
   private static final int PORT = 8082;
-  private HttpServer server;
+  private HttpServer server2;
 
   public Server() {
     try {
-      server = HttpServer.create(new InetSocketAddress(PORT), 0);
-      server.createContext("/store2/sales", new Service());
-      server.setExecutor(Executors.newFixedThreadPool(10));
+      server2 = HttpServer.create(new InetSocketAddress(PORT), 0);
+      server2.createContext("/sales", new Service());
+      server2.setExecutor(Executors.newFixedThreadPool(10));
     } catch (IOException e) {
       System.out.print("\nServer creation failed: " + e.getMessage());
     }
   }
 
   public void start() {
-    server.start();
+    server2.start();
     System.out.print("\nStore 2 Service started at the PORT " + PORT);
   }
 }

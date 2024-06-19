@@ -13,14 +13,14 @@ class Service implements HttpHandler {
   @Override
   public void handle(HttpExchange exchange) throws IOException {
     double totalSales = calculateTotalSales();
-    String response = "Total sales Store 1\n: " + totalSales;
+    String response = String.valueOf(totalSales);
     sendResponse(exchange, response);
   }
 
   private double calculateTotalSales() {
     double totalSales = 0.0;
     try {
-      File xmlFile = new File("store1.xml");
+      File xmlFile = new File("/home/rafael/Downloads/javaRepo/JavaSEMicroservices/ms-store-2/store2.xml");
       DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
       DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
       Document doc = dBuilder.parse(xmlFile);
@@ -29,8 +29,8 @@ class Service implements HttpHandler {
       NodeList nList = doc.getElementsByTagName("sale");
 
       for (int temp = 0; temp < nList.getLength(); temp++) {
-        int quantidade = Integer.parseInt(doc.getElementsByTagName("quantity").item(temp).getTextContent());
-        double valor = Double.parseDouble(doc.getElementsByTagName("value").item(temp).getTextContent());
+        int quantidade = Integer.parseInt(doc.getElementsByTagName("quantidade").item(temp).getTextContent());
+        double valor = Double.parseDouble(doc.getElementsByTagName("valor").item(temp).getTextContent());
         totalSales += quantidade * valor;
       }
     } catch (Exception e) {
