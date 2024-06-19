@@ -1,18 +1,16 @@
 # Java SE Microservices
 
-Este repositório contém uma coleção de microservices Java que demonstram
-conceitos básicos de arquitetura de microservices, comunicação entre
-serviços e processamento de dados distribuído.
+This repository contains a collection of Java microservices demonstrating basic concepts of microservices architecture, inter-service communication, and distributed data processing.
 
 ## Microservices
- 
-- ms-store-1: Microservice simulando uma loja fictícia que fornece informações sobre vendas.
 
-- ms-store-2: Microservice simulando outra loja fictícia que fornece informações sobre vendas.
+- ms-store-1: Microservice simulating a fictional store providing information about sales.
 
-- ms-analytics: Microservice que calcula o valor total de vendas de todas as lojas.
+- ms-store-2: Microservice simulating another fictional store providing information about sales.
 
-## Tecnologias Utilizadas
+- ms-analytics: Microservice calculating the total sales value from all stores.
+
+## Technologies Used
 
 - Java
 
@@ -20,17 +18,16 @@ serviços e processamento de dados distribuído.
 
 - XML Parsing (org.w3c.dom)
 
-- CompletableFuture para programação assíncrona
+- CompletableFuture for asynchronous programming
 
-- DocumentBuilder para leitura de arquivos XML
+- DocumentBuilder for XML file reading
 
-- Threads para processamento paralelo
+- Threads for parallel processing
 
+## Installation and Usage
 
-## Instalação e Uso
+### Prerequisites
 
-### Pré-requisitos
+- JDK 8 or higher installed
 
-- JDK 8 ou superior instalado
-
-- Maven instalado
+- Maven installed
