@@ -20,7 +20,7 @@ class Service implements HttpHandler {
   private double calculateTotalSales() {
     double totalSales = 0.0;
     try {
-      File xmlFile = new File("Store1.xml");
+      File xmlFile = new File("store1.xml");
       DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
       DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
       Document doc = dBuilder.parse(xmlFile);
