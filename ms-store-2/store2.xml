@@ -1,0 +1,109 @@
+<!-- store1.xml -->
+<!-- example with 15 sales -->
+<sales>
+  <sale>
+    <id>1</id>
+    <nome>Produto A</nome>
+    <quantidade>10</quantidade>
+    <valor>20.0</valor>
+    <marca>Marca X</marca>
+  </sale>
+  <sale>
+    <id>2</id>
+    <nome>Produto B</nome>
+    <quantidade>5</quantidade>
+    <valor>50.0</valor>
+    <marca>Marca Y</marca>
+  </sale>
+  <sale>
+    <id>3</id>
+    <nome>Produto C</nome>
+    <quantidade>15</quantidade>
+    <valor>30.0</valor>
+    <marca>Marca Z</marca>
+  </sale>
+  <sale>
+    <id>4</id>
+    <nome>Produto D</nome>
+    <quantidade>8</quantidade>
+    <valor>25.0</valor>
+    <marca>Marca W</marca>
+  </sale>
+  <sale>
+    <id>5</id>
+    <nome>Produto E</nome>
+    <quantidade>20</quantidade>
+    <valor>40.0</valor>
+    <marca>Marca V</marca>
+  </sale>
+  <sale>
+    <id>6</id>
+    <nome>Produto F</nome>
+    <quantidade>12</quantidade>
+    <valor>22.0</valor>
+    <marca>Marca U</marca>
+  </sale>
+  <sale>
+    <id>7</id>
+    <nome>Produto G</nome>
+    <quantidade>7</quantidade>
+    <valor>60.0</valor>
+    <marca>Marca T</marca>
+  </sale>
+  <sale>
+    <id>8</id>
+    <nome>Produto H</nome>
+    <quantidade>9</quantidade>
+    <valor>80.0</valor>
+    <marca>Marca S</marca>
+  </sale>
+  <sale>
+    <id>9</id>
+    <nome>Produto I</nome>
+    <quantidade>6</quantidade>
+    <valor>70.0</valor>
+    <marca>Marca R</marca>
+  </sale>
+  <sale>
+    <id>10</id>
+    <nome>Produto J</nome>
+    <quantidade>14</quantidade>
+    <valor>35.0</valor>
+    <marca>Marca Q</marca>
+  </sale>
+  <sale>
+    <id>11</id>
+    <nome>Produto K</nome>
+    <quantidade>18</quantidade>
+    <valor>33.0</valor>
+    <marca>Marca P</marca>
+  </sale>
+  <sale>
+    <id>12</id>
+    <nome>Produto L</nome>
+    <quantidade>22</quantidade>
+    <valor>45.0</valor>
+    <marca>Marca O</marca>
+  </sale>
+  <sale>
+    <id>13</id>
+    <nome>Produto M</nome>
+    <quantidade>11</quantidade>
+    <valor>19.0</valor>
+    <marca>Marca N</marca>
+  </sale>
+  <sale>
+    <id>14</id>
+    <nome>Produto N</nome>
+    <quantidade>13</quantidade>
+    <valor>55.0</valor>
+    <marca>Marca M</marca>
+  </sale>
+  <sale>
+    <id>15</id>
+    <nome>Produto O</nome>
+    <quantidade>4</quantidade>
+    <valor>75.0</valor>
+    <marca>Marca L</marca>
+  </sale>
+</sales>
